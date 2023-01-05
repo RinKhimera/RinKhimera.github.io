@@ -1,6 +1,17 @@
 import Head from "next/head";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Services from "./components/Services";
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,10 +22,45 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10">
-        <section className="min-h-screen">
+      <main className="bg-white px-10 md:px-20 lg:px-40">
+        <section>
           <Navbar />
           <Hero />
+        </section>
+        <section>
+          <Services />
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Portfolio</h3>
+            <p className="text-md py-2 leading-8 max-w-xl text-gray-800">
+              I create successful responsive websites that are fast, easy to
+              use, and built with best practices. The main area of my expertise
+              is front-end development, React.js | Next.js, Tailwind CSS |
+              Bootstrap, JavaScript, building small and medium web apps, custom
+              plugins, features, animations, and coding interactive layouts.
+            </p>
+          </div>
+          <div>
+            <div>
+              <Image src={web1} />
+            </div>
+            <div>
+              <Image src={web2} />
+            </div>
+            <div>
+              <Image src={web3} />
+            </div>
+            <div>
+              <Image src={web4} />
+            </div>
+            <div>
+              <Image src={web5} />
+            </div>
+            <div>
+              <Image src={web6} />
+            </div>
+          </div>
         </section>
       </main>
     </>

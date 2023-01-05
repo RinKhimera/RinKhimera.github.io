@@ -13,8 +13,9 @@ const Hero = () => {
         <h3 className=" text-2xl py-2">Frontend Developer</h3>
         <p className="text-md py-5 leading-8 text-gray-800">
           I am a frontend developer with a particular interest in making things
-          simple and automating daily tasks. I try to keep up with security and
-          best practices, and am always looking for new things to learn.
+          simple and automating daily tasks. I am a frontend developer with a
+          particular interest in making things simple and automating daily
+          tasks.
         </p>
       </div>
       <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600">
