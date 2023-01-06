@@ -2,12 +2,12 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div>
-      <h2 className="text-3xl py-10 text-center">Services I offer</h2>
-      <div className="flex justify-center text-center gap-20">
+    <div className="text-center py-10">
+      <h2 className="text-3xl font-medium">Services I offer</h2>
+      <div className="">
         <div>
-          <h3 className=" text-2xl py-2">Design & Development</h3>
-          <p className="text-md py-2 leading-8 max-w-xl text-gray-800">
+          <h3 className=" text-2xl py-5">Design & Development</h3>
+          <p className="text-md py-2 leading-8 text-gray-800 md:text-lg dark:text-slate-200">
             I create successful responsive websites that are fast, easy to use,
             and built with best practices. The main area of my expertise is
             front-end development, React.js | Next.js, Tailwind CSS | Bootstrap,
@@ -17,7 +17,7 @@ const Services = () => {
         </div>
         <div>
           <h3 className=" text-2xl py-2">Building Applications</h3>
-          <p className="text-md py-2 leading-8 max-w-xl text-gray-800 w-auto">
+          <p className="text-md py-2 leading-8 text-gray-800 w-auto md:text-lg dark:text-slate-200">
             In building JavaScript applications, I'm equipped with just the
             right tools, and can absolutely function independently of them to
             deliver fast, resilient solutions optimized performance and
