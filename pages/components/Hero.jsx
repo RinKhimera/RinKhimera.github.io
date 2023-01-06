@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div>
       <div className="text-center p-10">
-        <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+        <h2 className="text-5xl py-2 text-rose-600 font-medium md:text-6xl">
           Samuel Pokam
         </h2>
         <h3 className="text-2xl py-2 md:text-3xl dark:text-slate-50">
@@ -41,7 +41,7 @@ const Hero = () => {
           <AiFillMail />
         </a>
       </div>
-      <div className="relative mx-auto mt-20 bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden">
+      <div className="relative mx-auto mt-20 bg-gradient-to-b from-rose-600 rounded-full w-80 h-80 overflow-hidden">
         <Image src={deved} fill objectFit="cover" />
       </div>
     </div>

@@ -10,13 +10,12 @@ const Portfolio = () => {
   return (
     <section>
       <div>
-        <h3 className="text-3xl py-1">Portfolio</h3>
-        <p className="text-md py-2 leading-8 max text-gray-800 dark:text-slate-200">
-          I create successful responsive websites that are fast, easy to use,
-          and built with best practices. The main area of my expertise is
-          front-end development, React.js | Next.js, Tailwind CSS | Bootstrap,
-          JavaScript, building small and medium web apps, custom plugins,
-          features, animations, and coding interactive layouts.
+        <h3 className="text-5xl py-1 text-rose-600">Portfolio</h3>
+        <p className="text-md py-2 leading-8 max text-gray-800 md:text-lg dark:text-slate-200">
+          In building JavaScript applications, I'm equipped with just the right
+          tools, and can absolutely function independently of them to deliver
+          fast, resilient solutions optimized for scale — performance and
+          scalabilty are priorities on my radar.
         </p>
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
