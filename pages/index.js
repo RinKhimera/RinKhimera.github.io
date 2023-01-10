@@ -4,6 +4,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsSunFill } from "react-icons/bs";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import Technologies from "./components/Technologies";
 import Portfolio from "./components/Portfolio";
 
 export default function Home() {
@@ -24,15 +25,14 @@ export default function Home() {
           </h1>
           <ul className="flex items-center">
             <li>
-              {darkMode === false && (
-                <BsFillMoonStarsFill
-                  className="cursor-pointer text-2xl"
-                  onClick={() => setDarkMode(!darkMode)}
-                />
-              )}
-              {darkMode === true && (
+              {darkMode === true ? (
                 <BsSunFill
                   className="cursor-pointer text-2xl text-slate-100"
+                  onClick={() => setDarkMode(!darkMode)}
+                />
+              ) : (
+                <BsFillMoonStarsFill
+                  className="cursor-pointer text-2xl"
                   onClick={() => setDarkMode(!darkMode)}
                 />
               )}
@@ -49,6 +49,7 @@ export default function Home() {
         </nav>
         <Hero />
         <Services />
+        <Technologies />
         <Portfolio />
       </main>
     </div>
