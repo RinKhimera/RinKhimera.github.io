@@ -29,7 +29,7 @@ const Portfolio = () => {
               className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
               width={"100%"}
               height={"100%"}
-              layout="responsive"
+              style="responsive"
               src={web1}
             />
           </a>
@@ -44,7 +44,7 @@ const Portfolio = () => {
               className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
               width={"100%"}
               height={"100%"}
-              layout="responsive"
+              style="responsive"
               src={web2}
             />
           </a>
@@ -59,7 +59,7 @@ const Portfolio = () => {
               className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
               width={"100%"}
               height={"100%"}
-              layout="responsive"
+              style="responsive"
               src={web3}
             />
           </a>
@@ -74,7 +74,7 @@ const Portfolio = () => {
               className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
               width={"100%"}
               height={"100%"}
-              layout="responsive"
+              style="responsive"
               src={web4}
             />
           </a>
@@ -89,7 +89,7 @@ const Portfolio = () => {
               className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
               width={"100%"}
               height={"100%"}
-              layout="responsive"
+              style="responsive"
               src={web5}
             />
           </a>
@@ -104,7 +104,7 @@ const Portfolio = () => {
               className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
               width={"100%"}
               height={"100%"}
-              layout="responsive"
+              style="responsive"
               src={web6}
             />
           </a>
