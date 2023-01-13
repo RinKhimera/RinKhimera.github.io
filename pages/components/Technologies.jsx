@@ -13,7 +13,7 @@ import tailwind from "../../public/tech/tailwind.png";
 const Technologies = () => {
   return (
     <div className="py-5">
-      <h3 className="text-5xl py-3 text-rose-600">What I use</h3>
+      <h3 className="text-5xl py-3 text-rose-600">My stacks</h3>
       <p className="text-md pb-5 leading-8 max text-gray-800 md:text-lg dark:text-slate-200">
         Technologies I am working with
       </p>
