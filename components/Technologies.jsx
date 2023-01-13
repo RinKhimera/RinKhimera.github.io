@@ -1,14 +1,14 @@
 import Image from "next/image";
-import html from "../../public/tech/html.png";
-import css from "../../public/tech/css.png";
-import javascript from "../../public/tech/javascript.png";
-import node from "../../public/tech/node.png";
-import redux from "../../public/tech/redux.png";
-import react from "../../public/tech/react.png";
-import typescript from "../../public/tech/typescript.png";
-import bootstrap from "../../public/tech/bootstrap.png";
-import sass from "../../public/tech/sass.png";
-import tailwind from "../../public/tech/tailwind.png";
+import html from "../public/tech/html.png";
+import css from "../public/tech/css.png";
+import javascript from "../public/tech/javascript.png";
+import node from "../public/tech/node.png";
+import redux from "../public/tech/redux.png";
+import react from "../public/tech/react.png";
+import typescript from "../public/tech/typescript.png";
+import bootstrap from "../public/tech/bootstrap.png";
+import sass from "../public/tech/sass.png";
+import tailwind from "../public/tech/tailwind.png";
 
 const Technologies = () => {
   return (

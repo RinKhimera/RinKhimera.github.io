@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import Image from "next/image";
-import profilePic from "../../public/profilepic.png";
+import profilePic from "../public/profilepic.png";
 
 const Hero = () => {
   return (
