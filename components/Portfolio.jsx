@@ -119,7 +119,7 @@ const Portfolio = () => {
         </div>
         <div className="basis-1/3 flex-1 overflow-hidden">
           <a
-            href="https://rinkhimera.github.io/digital-business-card/"
+            href="https://rinkhimera.github.io/quotes-generator/"
             target="_blank"
             rel="noopener noreferrer"
           >
