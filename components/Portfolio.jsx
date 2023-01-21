@@ -5,6 +5,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import web7 from "../public/web7.png";
 
 const Portfolio = () => {
   return (
@@ -12,6 +13,7 @@ const Portfolio = () => {
       <div>
         <h3 className="text-5xl py-1 text-rose-600">Portfolio</h3>
         <p className="text-md py-2 leading-8 max text-gray-800 md:text-lg dark:text-slate-200">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           In building JavaScript applications, I'm equipped with just the right
           tools, and can absolutely function independently of them to deliver
           fast, resilient solutions optimized for scale — performance and
@@ -31,6 +33,7 @@ const Portfolio = () => {
               height={"100%"}
               style="responsive"
               src={web1}
+              alt=""
             />
           </a>
         </div>
@@ -46,6 +49,7 @@ const Portfolio = () => {
               height={"100%"}
               style="responsive"
               src={web2}
+              alt=""
             />
           </a>
         </div>
@@ -61,6 +65,7 @@ const Portfolio = () => {
               height={"100%"}
               style="responsive"
               src={web3}
+              alt=""
             />
           </a>
         </div>
@@ -76,6 +81,7 @@ const Portfolio = () => {
               height={"100%"}
               style="responsive"
               src={web4}
+              alt=""
             />
           </a>
         </div>
@@ -91,6 +97,7 @@ const Portfolio = () => {
               height={"100%"}
               style="responsive"
               src={web5}
+              alt=""
             />
           </a>
         </div>
@@ -106,6 +113,23 @@ const Portfolio = () => {
               height={"100%"}
               style="responsive"
               src={web6}
+              alt=""
+            />
+          </a>
+        </div>
+        <div className="basis-1/3 flex-1 overflow-hidden">
+          <a
+            href="https://rinkhimera.github.io/digital-business-card/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
+              width={"100%"}
+              height={"100%"}
+              style="responsive"
+              src={web7}
+              alt=""
             />
           </a>
         </div>
