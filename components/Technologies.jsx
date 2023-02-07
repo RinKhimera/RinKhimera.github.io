@@ -18,16 +18,16 @@ const Technologies = () => {
         Technologies I am working with
       </p>
       <div className=" grid gap-4 grid-cols-4 grid-rows-3 lg:flex">
-        <Image src={html} className="h-16 w-16" />
-        <Image src={css} className="h-16 w-16" />
-        <Image src={javascript} className="h-16 w-16" />
-        <Image src={typescript} className="h-16 w-16" />
-        <Image src={react} className="h-16 w-16" />
-        <Image src={redux} className="h-16 w-16" />
-        <Image src={node} className="h-16 w-16" />
-        <Image src={bootstrap} className="h-16 w-16" />
-        <Image src={sass} className="h-16 w-16" />
-        <Image src={tailwind} className="h-14 w-14" />
+        <Image src={html} alt="" className="h-16 w-16" />
+        <Image src={css} alt="" className="h-16 w-16" />
+        <Image src={javascript} alt="" className="h-16 w-16" />
+        <Image src={typescript} alt="" className="h-16 w-16" />
+        <Image src={react} alt="" className="h-16 w-16" />
+        <Image src={redux} alt="" className="h-16 w-16" />
+        <Image src={node} alt="" className="h-16 w-16" />
+        <Image src={bootstrap} alt="" className="h-16 w-16" />
+        <Image src={sass} alt="" className="h-16 w-16" />
+        <Image src={tailwind} alt="" className="h-14 w-14" />
       </div>
     </div>
   );
