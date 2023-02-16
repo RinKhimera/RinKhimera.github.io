@@ -42,7 +42,7 @@ const Hero = () => {
         </a>
       </div>
       <div className="relative mx-auto mt-20 bg-gradient-to-b from-rose-600 rounded-full w-80 h-80 overflow-hidden">
-        <Image src={profilePic} fill style={{ objectFit: "cover" }} />
+        <Image src={profilePic} fill style={{ objectFit: "cover" }} alt="" />
       </div>
     </div>
   );
