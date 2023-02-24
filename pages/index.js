@@ -1,11 +1,11 @@
 import Head from "next/head";
-import { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import { BsSunFill } from "react-icons/bs";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Technologies from "../components/Technologies";
 import Portfolio from "../components/Portfolio";
+import { useState } from "react";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsSunFill } from "react-icons/bs";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);

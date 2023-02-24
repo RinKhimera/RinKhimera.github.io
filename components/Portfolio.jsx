@@ -1,138 +1,78 @@
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-import web7 from "../public/web7.png";
+import { useMemo } from "react";
+
+const portfolioItems = [
+  {
+    id: 1,
+    url: "https://rinkhimera.github.io/manage-landing-page/",
+    src: "/web1.png",
+    alt: "Manage Landing Page",
+  },
+  {
+    id: 2,
+    url: "https://rinkhimera.github.io/roman-numeral-converter-v2/",
+    src: "/web2.png",
+    alt: "Roman Numeral Converter",
+  },
+  {
+    id: 3,
+    url: "https://rinkhimera.github.io/quotes-generator/",
+    src: "/web3.png",
+    alt: "Quotes Generator",
+  },
+  {
+    id: 4,
+    url: "https://rinkhimera.github.io/js-calculator-v2.0/",
+    src: "/web4.png",
+    alt: "JS Calculator",
+  },
+  {
+    id: 5,
+    url: "https://rinkhimera.github.io/drum-project/",
+    src: "/web5.png",
+    alt: "Drum Machine",
+  },
+  {
+    id: 6,
+    url: "https://rinkhimera.github.io/digital-business-card/",
+    src: "/web6.png",
+    alt: "Digital Business Card",
+  },
+];
 
 const Portfolio = () => {
+  const portfolioImages = useMemo(
+    () =>
+      portfolioItems.map((item) => (
+        <div className="basis-1/3 flex-1 overflow-hidden" key={item.id}>
+          <a href={item.url} target="_blank" rel="noopener noreferrer">
+            <Image
+              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
+              width={400}
+              height={400}
+              layout="responsive"
+              src={item.src}
+              alt={item.alt}
+            />
+          </a>
+        </div>
+      )),
+    []
+  );
+
   return (
     <div className="pt-8">
       <div>
         <h3 className="text-5xl py-1 text-rose-600">Portfolio</h3>
         <p className="text-md py-2 leading-8 max text-gray-800 md:text-lg dark:text-slate-200">
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
-          In building JavaScript applications, I'm equipped with just the right
-          tools, and can absolutely function independently of them to deliver
-          fast, resilient solutions optimized for scale — performance and
-          scalabilty are priorities on my radar.
+          In building JavaScript applications, I&apos;m equipped with just the
+          right tools, and can absolutely function independently of them to
+          deliver fast, resilient solutions optimized for scale — performance
+          and scalability are priorities on my radar.
         </p>
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-        <div className="basis-1/3 flex-1 overflow-hidden relative">
-          <a
-            href="https://rinkhimera.github.io/manage-landing-page/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
-              width={"100%"}
-              height={"100%"}
-              style="responsive"
-              src={web1}
-              alt=""
-            />
-          </a>
-        </div>
-        <div className="basis-1/3 flex-1 overflow-hidden ">
-          <a
-            href="https://rinkhimera.github.io/roman-numeral-converter-v2/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
-              width={"100%"}
-              height={"100%"}
-              style="responsive"
-              src={web2}
-              alt=""
-            />
-          </a>
-        </div>
-        <div className="basis-1/3 flex-1 overflow-hidden">
-          <a
-            href="https://rinkhimera.github.io/quotes-generator/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
-              width={"100%"}
-              height={"100%"}
-              style="responsive"
-              src={web3}
-              alt=""
-            />
-          </a>
-        </div>
-        <div className="basis-1/3 flex-1 overflow-hidden">
-          <a
-            href="https://rinkhimera.github.io/js-calculator-v2.0/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
-              width={"100%"}
-              height={"100%"}
-              style="responsive"
-              src={web4}
-              alt=""
-            />
-          </a>
-        </div>
-        <div className="basis-1/3 flex-1 overflow-hidden">
-          <a
-            href="https://rinkhimera.github.io/color-flipper/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
-              width={"100%"}
-              height={"100%"}
-              style="responsive"
-              src={web5}
-              alt=""
-            />
-          </a>
-        </div>
-        <div className="basis-1/3 flex-1 overflow-hidden">
-          <a
-            href="https://rinkhimera.github.io/digital-business-card/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
-              width={"100%"}
-              height={"100%"}
-              style="responsive"
-              src={web6}
-              alt=""
-            />
-          </a>
-        </div>
-        <div className="basis-1/3 flex-1 overflow-hidden">
-          <a
-            href="https://rinkhimera.github.io/quotes-generator/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out"
-              width={"100%"}
-              height={"100%"}
-              style="responsive"
-              src={web7}
-              alt=""
-            />
-          </a>
-        </div>
+        {portfolioImages}
       </div>
     </div>
   );

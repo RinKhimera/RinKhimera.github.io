@@ -10,6 +10,19 @@ import bootstrap from "../public/tech/bootstrap.png";
 import sass from "../public/tech/sass.png";
 import tailwind from "../public/tech/tailwind.png";
 
+const technologies = [
+  { src: html, alt: "HTML" },
+  { src: css, alt: "CSS" },
+  { src: javascript, alt: "JavaScript" },
+  { src: typescript, alt: "TypeScript" },
+  { src: react, alt: "React" },
+  { src: redux, alt: "Redux" },
+  { src: node, alt: "Node.js" },
+  { src: bootstrap, alt: "Bootstrap" },
+  { src: sass, alt: "Sass" },
+  { src: tailwind, alt: "Tailwind CSS" },
+];
+
 const Technologies = () => {
   return (
     <div className="py-5">
@@ -17,17 +30,15 @@ const Technologies = () => {
       <p className="text-md pb-5 leading-8 max text-gray-800 md:text-lg dark:text-slate-200">
         Technologies I am working with
       </p>
-      <div className=" grid gap-4 grid-cols-4 grid-rows-3 lg:flex">
-        <Image src={html} alt="" className="h-16 w-16" />
-        <Image src={css} alt="" className="h-16 w-16" />
-        <Image src={javascript} alt="" className="h-16 w-16" />
-        <Image src={typescript} alt="" className="h-16 w-16" />
-        <Image src={react} alt="" className="h-16 w-16" />
-        <Image src={redux} alt="" className="h-16 w-16" />
-        <Image src={node} alt="" className="h-16 w-16" />
-        <Image src={bootstrap} alt="" className="h-16 w-16" />
-        <Image src={sass} alt="" className="h-16 w-16" />
-        <Image src={tailwind} alt="" className="h-14 w-14" />
+      <div className="grid gap-4 grid-cols-4 grid-rows-3 lg:flex">
+        {technologies.map((tech) => (
+          <Image
+            src={tech.src}
+            alt={tech.alt}
+            key={tech.alt}
+            className="h-16 w-16"
+          />
+        ))}
       </div>
     </div>
   );
