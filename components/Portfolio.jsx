@@ -23,7 +23,7 @@ const Portfolio = () => {
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1 overflow-hidden relative">
           <a
-            href="https://rinkhimera.github.io/TailwindLandingPage/"
+            href="https://rinkhimera.github.io/manage-landing-page/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,7 +39,7 @@ const Portfolio = () => {
         </div>
         <div className="basis-1/3 flex-1 overflow-hidden ">
           <a
-            href="https://rinkhimera.github.io/Roman-Numeral-Converter/"
+            href="https://rinkhimera.github.io/roman-numeral-converter-v2/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -55,7 +55,7 @@ const Portfolio = () => {
         </div>
         <div className="basis-1/3 flex-1 overflow-hidden">
           <a
-            href="https://rinkhimera.github.io/reviews/"
+            href="https://rinkhimera.github.io/quotes-generator/"
             target="_blank"
             rel="noopener noreferrer"
           >

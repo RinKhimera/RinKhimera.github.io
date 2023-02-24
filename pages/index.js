@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10 pb-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className="bg-slate-50 px-10 pb-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <nav className="py-10 mb-12 flex justify-between">
           <h1 className="text-xl font-burtons dark:text-slate-100">
             devbyRinKhimera
