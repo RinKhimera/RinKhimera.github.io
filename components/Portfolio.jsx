@@ -34,9 +34,21 @@ const portfolioItems = [
   },
   {
     id: 6,
-    url: "https://rinkhimera.github.io/digital-business-card/",
+    url: "https://rinkhimera.github.io/markdown-previewer/",
     src: "/web6.png",
-    alt: "Digital Business Card",
+    alt: "Markdown Previewer",
+  },
+  {
+    id: 7,
+    url: "https://rinkhimera.github.io/todo-list-app/",
+    src: "/web7.jpg",
+    alt: "Todo List App",
+  },
+  {
+    id: 8,
+    url: "https://rinkhimera.github.io/reviews/",
+    src: "/web10.png",
+    alt: "Reviews",
   },
 ];
 
